@@ -1,0 +1,5 @@
+frase = input("Digite a sua frase:")
+frase_minisculas = frase.lower()
+print("A letra A aparece {} vezes".format(frase_minisculas.count("a")))
+print("A primeira vez que aparece é na posição {}".format(frase_minisculas.find("a")+1))
+print("A ultima vez que aparece é na posição {}".format(frase_minisculas.rfind("a")+1))
